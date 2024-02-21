@@ -134,5 +134,41 @@ img {
    .row{
     width: 100%;
    }
- 
+}
+
+@media screen and (max-width:480px) {
+    .container{
+        width: 480px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 38px;
+    }
+    h3{
+        font-size: 35px;
+    }
+    p{
+        font-size: 21px;
+    }
+    .row{
+        display: block;
+        width: 100%;
+    }
+    .card{
+        width: 420px;
+        padding-bottom: 30px;
+        padding-right: 20px;
+    }
+    .col-left{
+        min-width:440px;
+        padding-bottom: 100px;
+    }
+    .col-right{
+        min-width: 440px;
+        padding-bottom: 20px;
+    }
+
+    
 }
